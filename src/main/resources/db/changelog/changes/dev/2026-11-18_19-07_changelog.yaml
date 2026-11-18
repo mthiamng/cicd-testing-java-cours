@@ -1,0 +1,12 @@
+databaseChangeLog:
+- changeSet:
+    id: 1795028827213-1
+    author: modou (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: type_symbol
+            type: VARCHAR(255 BYTE)
+        tableName: calculation_model
+
