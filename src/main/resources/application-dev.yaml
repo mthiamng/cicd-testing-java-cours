@@ -9,7 +9,7 @@ spring:
       ddl-auto: none
   liquibase:
     #disable liquibase at start-up
-    enabled: false
+    enabled: true
 
 
 server:
